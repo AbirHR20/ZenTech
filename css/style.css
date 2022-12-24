@@ -168,7 +168,8 @@ banner css starts
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 300px 0;
+    padding-top: 300px;
+    padding-bottom: 130px;
 }
 
 #banner .banner .banner-text {
@@ -266,10 +267,9 @@ about css starts
 
 .side-text {
     color: rgba(55, 64, 67, 0.201);
-    writing-mode: sideways-lr;
-    -webkit-writing-mode: sideways-lr;
-    -ms-writing-mode: sideways-lr;
-    letter-spacing: 20px;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
 }
 
 #about .about .about-video .play {

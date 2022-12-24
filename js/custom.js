@@ -12,7 +12,28 @@ $(document).ready(function () {
   $('.services-slider').slick({
     slidesToShow: 4,
     nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
-    prevArrow: '<i class="fa-solid fa-chevron-left"></i>'
+    prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+    responsive: [{
+
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        infinite: true
+      }
+
+    }, {
+
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+      }
+
+    }, {
+
+      breakpoint: 300,
+      settings: "unslick" // destroys slick
+
+    }]
   });
 
   $('.project-slider').slick({
@@ -21,12 +42,56 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 10,
     speed: 5000,
+    responsive: [{
+
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        infinite: true
+      }
+
+    }, {
+
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+      }
+
+    }, {
+
+      breakpoint: 300,
+      settings: "unslick" // destroys slick
+
+    }]
   });
 
   $('.team-slider').slick({
     slidesToShow: 3,
     nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
-    prevArrow: '<i class="fa-solid fa-chevron-left"></i>'
+    prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+    responsive: [{
+
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        infinite: true
+      }
+
+    }, {
+
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        autoplay:true,
+        arrows:false,
+      }
+
+    }, {
+
+      breakpoint: 300,
+      settings: "unslick" // destroys slick
+
+    }]
   });
 
   $('.testimonial-slider').slick({
@@ -34,12 +99,51 @@ $(document).ready(function () {
     nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
     prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
     asNavFor:'.assist-slider',
+    responsive: [{
+
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        infinite: true,
+        autoplay:true,
+        arrows: false,
+      }
+
+    }, {
+
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        autoplay:true,
+        arrows:false,
+      }
+
+    }, {
+
+      breakpoint: 300,
+      settings: "unslick" // destroys slick
+
+    }]
   });
 
   $('.assist-slider').slick({
     slidesToShow: 3,
     arrows : false,
     asNavFor:'.testimonial-slider',
+    responsive: [{
+
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        infinite: true,
+      }
+
+    }, {
+
+      breakpoint: 575,
+      settings: "unslick" // destroys slick
+
+    }]
   });
 
   //wow js

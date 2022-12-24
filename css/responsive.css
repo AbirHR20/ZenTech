@@ -1,0 +1,395 @@
+@media (max-width:575px) {
+
+    #banner .banner .LeftElement{
+        display: none;
+    }
+
+    #banner .banner .RightElement{
+        display: none;
+    }
+
+    .fs-84 {
+        font-size: 50px !important;
+    }
+
+    #about .about .a1{
+        position: relative !important;
+    }
+
+    #about .about .a2{
+        position: relative !important;
+    }
+
+    #about .about .about-video .play {
+        top: 28% !important;
+        left: 40% !important;
+    }
+
+    #about .about .ae1{
+        display: none;
+    }
+
+    #about .about .ae2{
+        display: none;
+    }
+
+    #about .about .about-text{
+        margin-top: 50px;
+    }
+
+    #about .about .about-text p{
+        margin: 30px 0;
+    }
+
+    #about .about .about-video .item3{
+        position: relative !important;
+        left: 0 !important;
+    }
+
+    #about .about .RightElement2{
+        display: none;
+    }
+
+    #about .about .item img{
+        margin-bottom: 30px;
+    }
+
+    #about .about .item2 img{
+        margin-bottom: 30px;
+    }
+
+    #about .about .last{
+        margin-top: 30px;
+    }
+
+    #about .about .last .ex{
+        margin-top: 10px;
+    }
+
+    .side-text{
+        display: none;
+    }
+
+    #services .services {
+        padding-bottom: 165px;
+    }
+
+    #services .services .LeftElement2{
+        display: none;
+    }
+
+    #services .services .RightElement3{
+        display: none;
+    }
+
+    #services .services .fa-chevron-left {
+        top: 120% !important;
+        left: 33% !important;
+    }
+
+    #services .services .fa-chevron-right {
+        top: 120% !important;
+        right: 40% !important;
+    }
+
+    #project .project .project-text p{
+        margin: 30px 0;
+    }
+
+    #project .project .project-text{
+        margin-bottom: 30px;
+    }
+
+    #project .project .rotate {
+        padding: 50px 0 !important;
+    }
+
+    #skills .skills .skills-text{
+        margin-top: 50px;
+    }
+
+    #skills .skills .skills-text p{
+        margin: 30px 0;
+    }
+
+    #team .team .te1{
+        display: none;
+    }
+
+    #team .team .te2{
+        display: none;
+    }
+
+    #team .team .te3{
+        display: none;
+    }
+
+    #team .team header h1{
+        margin-bottom: 30px;
+    }
+
+    #team .team a {
+        margin-bottom: 50px;
+    }
+
+    #meet .meet h1{
+        margin-top: 30px;
+    }
+
+    #meet .meet h4{
+        margin-bottom: 30px;
+    }
+
+    #plan .plan {
+        margin: 140px 0 !important;
+    }
+
+    #testimonial .testimonial .assist-slider{
+        display: none !important;
+    }
+
+    #testimonial .testimonial .testimonial-item .text p{
+        margin: 50px 0;
+    }
+
+    #testimonial .testimonial .testimonial-item .text h3{
+        margin-bottom: 50px;
+    }
+
+    #testimonial .testimonial .tb{
+        display: none;
+    }
+    
+    #partner .partner img{
+        margin: 50px 0;
+    }
+
+    footer .fst p{
+        margin: 30px 0;
+    }
+
+    footer .useful-links{
+        margin: 40px 0;
+    }
+
+    footer .contact {
+        margin-bottom: 40px;
+    }
+
+    footer .logo i {
+        left: -7% !important;
+    }
+
+    footer .case-study{
+        display:none;
+    }
+}
+
+/*
+mobile device css ends
+*/
+
+@media (max-width:767px) {
+
+    #banner .banner .LeftElement{
+        display: none;
+    }
+
+    #banner .banner .RightElement{
+        display: none;
+    }
+
+    .fs-84 {
+        font-size: 50px !important;
+    }
+
+    #about .about .a1{
+        position: relative !important;
+    }
+
+    #about .about .a2{
+        position: relative !important;
+    }
+
+    #about .about .about-video .play {
+        top: 28% !important;
+        left: 40% !important;
+    }
+
+    #about .about .ae1{
+        display: none;
+    }
+
+    #about .about .ae2{
+        display: none;
+    }
+
+    #about .about .about-text{
+        margin-top: 50px;
+    }
+
+    #about .about .about-text p{
+        margin: 30px 0;
+    }
+
+    #about .about .about-video .item3{
+        position: relative !important;
+        left: 0 !important;
+    }
+
+    #about .about .RightElement2{
+        display: none;
+    }
+
+    #about .about .item img{
+        margin-bottom: 30px;
+    }
+
+    #about .about .item2 img{
+        margin-bottom: 30px;
+    }
+
+    #about .about .last{
+        margin-top: 30px;
+    }
+
+    #about .about .last .ex{
+        margin-top: 10px;
+    }
+
+    .side-text{
+        display: none;
+    }
+
+    #services .services {
+        padding-bottom: 165px;
+    }
+
+    #services .services .LeftElement2{
+        display: none;
+    }
+
+    #services .services .RightElement3{
+        display: none;
+    }
+
+    #services .services .fa-chevron-left {
+        top: 120% !important;
+        left: 33% !important;
+    }
+
+    #services .services .fa-chevron-right {
+        top: 120% !important;
+        right: 40% !important;
+    }
+
+    #project .project .project-text p{
+        margin: 30px 0;
+    }
+
+    #project .project .project-text{
+        margin-bottom: 30px;
+    }
+
+    #project .project .rotate {
+        padding: 50px 0 !important;
+    }
+
+    #skills .skills .skills-text{
+        margin-top: 50px;
+    }
+
+    #skills .skills .skills-text p{
+        margin: 30px 0;
+    }
+
+    #team .team .te1{
+        display: none;
+    }
+
+    #team .team .te2{
+        display: none;
+    }
+
+    #team .team .te3{
+        display: none;
+    }
+
+    #team .team header h1{
+        margin-bottom: 30px;
+    }
+
+    #team .team a {
+        margin-bottom: 50px;
+    }
+
+    #meet .meet h1{
+        margin-top: 30px;
+    }
+
+    #meet .meet h4{
+        margin-bottom: 30px;
+    }
+
+    #plan .plan {
+        margin: 140px 0 !important;
+    }
+
+    #testimonial .testimonial .assist-slider{
+        display: none !important;
+    }
+
+    #testimonial .testimonial .testimonial-item .text p{
+        margin: 50px 0;
+    }
+
+    #testimonial .testimonial .testimonial-item .text h3{
+        margin-bottom: 50px;
+    }
+
+    #testimonial .testimonial .tb{
+        display: none;
+    }
+    
+    #partner .partner img{
+        margin: 50px 0;
+    }
+
+    footer .fst p{
+        margin: 30px 0;
+    }
+
+    footer .useful-links{
+        margin: 40px 0;
+    }
+
+    footer .contact {
+        margin-bottom: 40px;
+    }
+
+    footer .logo i {
+        left: -7% !important;
+    }
+
+    footer .case-study{
+        display:none;
+    }
+}
+
+/*
+tab device css ends
+*/
+
+@media (max-width:1366px) {
+    #about .about .about-video .item3 {
+        left: 13% !important;
+    }
+
+    #about .about .about-video .ae2 {
+        display: none !important;
+    }
+}
+
+/*
+laptop device css ends
+*/
