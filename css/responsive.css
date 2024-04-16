@@ -379,17 +379,3 @@ mobile device css ends
 /*
 tab device css ends
 */
-
-@media (max-width:1366px) {
-    #about .about .about-video .item3 {
-        left: 13% !important;
-    }
-
-    #about .about .about-video .ae2 {
-        display: none !important;
-    }
-}
-
-/*
-laptop device css ends
-*/
